@@ -1,0 +1,28 @@
+{
+  "name": "sgm-agd-timbues-prototipo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Prototipo funcional (Fase 1) del Sistema de Gestión de Mantenimiento (SGM) para AGD Planta Timbúes, basado en el DRF v1.4.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "test": "node --test src/logic/__tests__/*.test.js",
+    "check:data": "node tools/check_seed_integrity.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
